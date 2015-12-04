@@ -1,0 +1,54 @@
+IDE:
+  editor:
+    blinkDuration: 600
+    colors:
+      evaluatedCode: !textFormat
+        color: "#f8f8f2"
+        background: "#364a5c"
+      lineNumbers: !textFormat
+        color: "#75715e"
+        background: "#272822"
+        bold: true
+      matchingBrackets: !textFormat
+        bold: true
+      mismatchedBrackets: !textFormat
+        color: "#f8f8f0"
+        background: "#f92672"
+      searchResult: !textFormat
+        color: "#f8f8f2"
+        background: "#49483e"
+      selection: !textFormat
+        color: "#f8f8f2"
+        background: "#49483e"
+      text: !textFormat
+        color: "#f8f8f2"
+        background: "#272822"
+    font:
+      antialias: 2
+      family: Monaco
+      size: 10
+    highlighting:
+      built-in: !textFormat
+        color: "#66d9ef"
+      char: !textFormat
+        color: "#ae81ff"
+      class: !textFormat
+        color: "#a6e22e"
+      comment: !textFormat
+        color: "#75715e"
+      env-var: !textFormat
+        color: "#66d9ef"
+      keyword: !textFormat
+        color: "#f92672"
+      number: !textFormat
+        color: "#ae81ff"
+      primitive: !textFormat
+        color: "#aeb2ff"
+      string: !textFormat
+        color: "#e6db74"
+      symbol: !textFormat
+        color: "#ae81ff"
+    indentWidth: 4
+    lineWrap: true
+    spaceIndent: true
+    stepForwardEvaluation: false
