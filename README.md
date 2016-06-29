@@ -1,8 +1,6 @@
 ![Screenshot](screenshot.png)
 
-Tired of staring at a white screen in a dark performance venue? You're in luck! The famous [Monokai](http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/) TextMate theme is now available for SuperCollider IDE at the low price of $0.
-
-There is a catch, however: installation is a little tricky.
+The [Monokai](http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/) TextMate theme adapted for SuperCollider IDE. Good for coding in dark venues :)
 
 `sc_ide_conf.yaml` is for the editor. There is no easy way to install this; it has to be manually grafted into `Platform.userConfigDir +/+ "sc_ide_conf.yaml"`. It goes under IDE/editor.
 
