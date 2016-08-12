@@ -4,4 +4,4 @@ The [Monokai](http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/) TextM
 
 `sc_ide_conf.yaml` is for the editor. There is no easy way to install this; it has to be manually grafted into `Platform.userConfigDir +/+ "sc_ide_conf.yaml"`. It goes under IDE/editor.
 
-`custom.css` is for the help files. It goes in `~/.local/share/SuperCollider/Help`. Sorry, I don't know what that is for OS X and Windows.
+`custom.css` is for the help files. It goes in `thisProcess.platform.userAppSupportDir +/+ "Help/custom.css"`. Sorry, I don't know what that is for OS X and Windows.
