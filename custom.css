@@ -358,18 +358,26 @@ pre.code {
 
 .extmethod {
     font-size: 9pt;
-    color: #444;
-    background: #49483e;
+    color: inherit;
+    background: inherit;
     padding-left: 0.2em;
-    text-align: right;
+    text-align: left;
 }
 
 .supmethod {
+    color: inherit;
+    background: inherit;
     font-size: 9pt;
-    color: #49483e;
-    background: #ffe;
     padding-left: 0.2em;
-    text-align: right;
+    text-align: left;
+}
+
+.supmethod:before, .extmethod:before {
+    content: "[";
+}
+
+.supmethod:after, .extmethod:after {
+    content: "]";
 }
 
 table.arguments {
